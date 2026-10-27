@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html><body>
+<h3>01 - Quotes Inside Strings</h3>
+<script>
+let str=`hi we learn "js" from 'miracle' bhopal it's a good institute!`;
+console.log(str);
+document.write(str);
+</script>
+</body></html>
