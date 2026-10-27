@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html><body>
+<h3>03 - Interpolation</h3>
+<div id="demo"></div>
+<script>
+let institute = "Miracle IT Bhopal MP";
+let course = "JS";
+let msg = `Hi i am learn ${course} from ${institute}`;
+console.log(msg);
+let a=10, b=20;
+console.log(`Sum is ${a+b}`);
+let c1="php", c2="oracle", c3="java";
+let html = `
+<ol>
+<li>${c1}</li><li>${c2}</li><li>${c3}</li>
+<li>Total: ${a+b} courses</li>
+</ol>
+`;
+document.getElementById("demo").innerHTML = html;
+</script>
+</body></html>
