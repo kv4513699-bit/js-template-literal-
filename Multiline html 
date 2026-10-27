@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html><body>
+<h3>02 - Multiline Strings</h3>
+<pre id="demo"></pre>
+<script>
+let str=`Hi i am learn JS
+from Miracle IT
+Bhopal MP
+this is good language.
+`;
+console.log(str);
+let html = `
+<ol><li>php</li><li>oracle</li><li>java</li></ol>
+`;
+document.getElementById("demo").innerHTML = html;
+</script>
+</body></html>
